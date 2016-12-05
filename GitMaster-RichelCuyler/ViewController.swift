@@ -11,12 +11,13 @@ import UIKit
 class ViewController: UIViewController {
     
     
+    @IBOutlet weak var threeWordsAnswer: UITextField!
     @IBOutlet weak var threeWords: UITextField!
     @IBAction func threeWordsChanged(_ sender: Any) {
         if threeWords.text == "What say you?" {
             threeWords.text = "I love you!"
         } else {
-            threeWords.text = "What say you?"
+            threeWords.text = ""
         }
 
     
