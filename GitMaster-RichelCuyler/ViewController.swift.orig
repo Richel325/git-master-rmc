@@ -26,9 +26,11 @@ class ViewController: UIViewController {
      func viewDidLoad() {
         }
         super.viewDidLoad()
+<<<<<<< HEAD
         //Add a new comment to the ViewDidLoad in ViewController
-
+=======
         //Another comment added!
+>>>>>>> bugfix/comment
         
     }
 
