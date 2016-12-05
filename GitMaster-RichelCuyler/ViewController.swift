@@ -9,8 +9,23 @@
 import UIKit
 
 class ViewController: UIViewController {
+    
+    
+    @IBOutlet weak var threeWords: UITextField!
+    @IBAction func threeWordsChanged(_ sender: Any) {
+        if threeWords.text == "What say you?" {
+            threeWords.text = "I love you!"
+        } else {
+            threeWords.text = "What say you?"
+        }
 
-    override func viewDidLoad() {
+    
+    
+    
+
+     func viewDidLoad() {
+        }
+        
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
     }
