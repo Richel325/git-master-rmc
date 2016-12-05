@@ -16,7 +16,7 @@ class ViewController: UIViewController {
         if threeWords.text == "What say you?" {
             threeWords.text = "I love you!"
         } else {
-            threeWords.text = "What say you?"
+            threeWords.text = ""
         }
 
     
